@@ -13,13 +13,16 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
 - **Real-time Processing**: Low-latency hand tracking with MediaPipe
 - **ROS2 Integration**: Seamlessly integrates with ROS2 robotic systems
 - **Multiple Gesture Support**: 
-  - 👉 **POINTING** - Move Forward
+  - ☝️**POINTING** - Move Forward
   - 👍 **THUMBS UP** - Move Backward  
   - ✌️ **VICTORY** - Turn Left
   - 🤘 **ROCK SIGN** - Turn Right
   - 🖐️ **OPEN HAND** - Stop
 
 ## 🚀 Quick Start
+- ros2 launch turtlebot3_gazebo empty_world.launch.py #launch turtlebot3 in gazebo
+- ros2 run finger_follower hand_gesture_controller
+- option(ros2 run finger_follower finger_detector)
 
 ### Prerequisites
 - ROS2 Jazzy (or compatible distribution)
