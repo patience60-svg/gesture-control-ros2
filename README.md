@@ -20,7 +20,7 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
   - 🖐️ **OPEN HAND** - Stop
 
 ## 🚀 Quick Start
- ![Demo Video](https://github.com/patience60-svg/gesture-control-ros2/raw/demo.mp4)
+ <video src="https://github.com/patience60-svg/gesture-control-ros2/raw/demo.mp4" controls width="640"></video>
 
 ### Prerequisites
 - ROS2 Jazzy (or compatible distribution)
@@ -40,4 +40,4 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
    
    ros2 run finger_follower hand_gesture_controller
    
-   option(ros2 run finger_follower finger_detector)
+   #optional(ros2 run finger_follower finger_detector)
