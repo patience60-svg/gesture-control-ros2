@@ -20,10 +20,7 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
   - 🖐️ **OPEN HAND** - Stop
 
 ## 🚀 Quick Start
- <video controls width="640">
-    <source src="[demo.mp4](https://github.com/patience60-svg/gesture-control-ros2/raw/demo.mp4)" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+ ![Demo Video](https://github.com/patience60-svg/gesture-control-ros2/raw/demo.mp4)
 
 ### Prerequisites
 - ROS2 Jazzy (or compatible distribution)
