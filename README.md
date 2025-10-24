@@ -20,9 +20,7 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
   - 🖐️ **OPEN HAND** - Stop
 
 ## 🚀 Quick Start
-- ros2 launch turtlebot3_gazebo empty_world.launch.py #launch turtlebot3 in gazebo
-- ros2 run finger_follower hand_gesture_controller
-- option(ros2 run finger_follower finger_detector)
+ ![Demo Video](https://github.com/patience60-svg/gesture-control-ros2/raw/demo.mp4)
 
 ### Prerequisites
 - ROS2 Jazzy (or compatible distribution)
@@ -36,3 +34,10 @@ A ROS2 package for controlling robots using intuitive hand gestures. This projec
    ```bash
    cd ~/ros2_ws/src
    git clone https://github.com/yourusername/gesture-control-ros2.git
+2. **Run packages**
+   ```bash
+   ros2 launch turtlebot3_gazebo empty_world.launch.py #launch turtlebot3 in gazebo
+   
+   ros2 run finger_follower hand_gesture_controller
+   
+   option(ros2 run finger_follower finger_detector)
